@@ -1,14 +1,16 @@
 import { createTamagui } from 'tamagui'
 import { createInterFont } from '@tamagui/font-inter'
 import { shorthands } from '@tamagui/shorthands'
-import { themes, tokens } from '@tamagui/themes'
+import { tokens } from '@tamagui/themes'
 import { createMedia } from '@tamagui/react-native-media-driver'
-
+import * as themes from './theme'
 import { animations } from './animations'
 
 const headingFont = createInterFont({
   size: {
-    6: 15,
+    6: 10,
+    7: 14,
+    8: 20,
   },
   transform: {
     6: 'uppercase',
@@ -17,10 +19,12 @@ const headingFont = createInterFont({
   weight: {
     6: '400',
     7: '700',
+    8: '800',
   },
   color: {
-    6: '$colorFocus',
-    7: '$color',
+    6: '$blue10',
+    7: '$blue10',
+    8: '$color12',
   },
   letterSpacing: {
     5: 2,
@@ -40,8 +44,12 @@ const headingFont = createInterFont({
 
 const bodyFont = createInterFont(
   {
+    size: {
+      6: 10,
+      7: 50,
+    },
     face: {
-      700: { normal: 'InterBold' },
+      700: { normal: 'Inter' },
     },
   },
   {
@@ -51,7 +59,7 @@ const bodyFont = createInterFont(
 )
 
 export const config = createTamagui({
-  defaultFont: 'body',
+  defaultFont: 'heading',
   animations,
   shouldAddPrefersColorThemes: true,
   themeClassNameOnRoot: true,

@@ -34,6 +34,7 @@ function ThemeProvider({ children }: { children: React.ReactNode }) {
   return (
     <NextThemeProvider
       onChangeTheme={(next) => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setTheme(next as any)
       }}
     >

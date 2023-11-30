@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 'use client'
 
 import '@tamagui/core/reset.css'
@@ -48,6 +49,7 @@ export const TamaguiProvider = ({ children }: { children: React.ReactNode }) => 
   return (
     <NextThemeProvider
       onChangeTheme={(next) => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setTheme(next as any)
       }}
     >
