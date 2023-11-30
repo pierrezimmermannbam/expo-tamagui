@@ -125,3 +125,8 @@ web-build/
 dist/
 
 # @end expo-cli
+
+
+# prebuild
+ios
+android
