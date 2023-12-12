@@ -1,0 +1,11 @@
+68867c601b360eaf4a0b8342afc293d1
+"use strict";const _jsxFileName = "/Users/pierrezimmermann/projects/poc-tamagui/apps/next/app-demo/page.test.tsx";var _jsxdevruntime = require("react/jsx-dev-runtime");var _reactnative = require('react-native');
+var _react = require('@testing-library/react');
+
+test('render a View', () => {
+  const { baseElement } = _react.render.call(void 0, _jsxdevruntime.jsxDEV.call(void 0, _reactnative.View, {}, void 0, false, {fileName: _jsxFileName, lineNumber: 5}, this ));
+
+  expect(baseElement).toMatchSnapshot();
+});
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3BpZXJyZXppbW1lcm1hbm4vcHJvamVjdHMvcG9jLXRhbWFndWkvYXBwcy9uZXh0L2FwcC1kZW1vL3BhZ2UudGVzdC50c3giLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiL1VzZXJzL3BpZXJyZXppbW1lcm1hbm4vcHJvamVjdHMvcG9jLXRhbWFndWkvYXBwcy9uZXh0L2FwcC1kZW1vL3BhZ2UudGVzdC50c3giXSwibWFwcGluZ3MiOiJBQUFBLG1OQUFtQztBQUNuQywrQ0FBdUQ7QUFDdkQ7QUFDQSxJQUFJLENBQUMsZUFBZSxFQUFFLENBQUMsRUFBRSxHQUFHO0FBQzVCLEVBQUUsTUFBTSxFQUFFLFlBQVksRUFBRSxFQUFFLDJCQUFNLG1DQUFFLG9GQUFLLENBQUUsQ0FBQztBQUMxQztBQUNBLEVBQUUsTUFBTSxDQUFDLFdBQVcsQ0FBQyxDQUFDLGVBQWUsQ0FBQyxDQUFDO0FBQ3ZDLENBQUMsQ0FBQyJ9
