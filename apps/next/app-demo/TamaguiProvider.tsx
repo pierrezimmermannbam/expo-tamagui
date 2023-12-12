@@ -1,35 +1,35 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-'use client'
+'use client';
 
-import '@tamagui/core/reset.css'
-import '@tamagui/polyfill-dev'
+import '@tamagui/core/reset.css';
+import '@tamagui/polyfill-dev';
 
-import { config as configBase } from '@tamagui/config/v2'
-import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme'
-import { useServerInsertedHTML } from 'next/navigation'
-import React from 'react'
-import { StyleSheet } from 'react-native'
-import { createTamagui, TamaguiProvider as TamaguiProviderOG } from 'tamagui'
+import { config as configBase } from '@tamagui/config/v2';
+import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme';
+import { useServerInsertedHTML } from 'next/navigation';
+import React from 'react';
+import { StyleSheet } from 'react-native';
+import { createTamagui, TamaguiProvider as TamaguiProviderOG } from 'tamagui';
 
-import Tamagui from '../tamagui.config'
+import Tamagui from '../tamagui.config';
 
 const config = createTamagui({
   ...configBase,
   themeClassNameOnRoot: false,
-})
+});
 
-export type Conf = typeof config
+export type Conf = typeof config;
 
 declare module 'tamagui' {
   interface TamaguiCustomConfig extends Conf {}
 }
 
 export const TamaguiProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useRootTheme()
+  const [theme, setTheme] = useRootTheme();
 
   useServerInsertedHTML(() => {
     // @ts-ignore
-    const rnwStyle = StyleSheet.getSheet()
+    const rnwStyle = StyleSheet.getSheet();
     return (
       <>
         <style dangerouslySetInnerHTML={{ __html: rnwStyle.textContent }} id={rnwStyle.id} />
@@ -43,19 +43,19 @@ export const TamaguiProvider = ({ children }: { children: React.ReactNode }) => 
           }}
         />
       </>
-    )
-  })
+    );
+  });
 
   return (
     <NextThemeProvider
       onChangeTheme={(next) => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        setTheme(next as any)
+        setTheme(next as any);
       }}
     >
       <TamaguiProviderOG config={config} themeClassNameOnRoot defaultTheme={theme}>
         {children}
       </TamaguiProviderOG>
     </NextThemeProvider>
-  )
-}
+  );
+};

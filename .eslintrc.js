@@ -9,4 +9,4 @@ module.exports = {
     node: true,
   },
   ignorePatterns: ['packages/ui/dist', 'packages/ui/types'],
-}
+};

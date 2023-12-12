@@ -5,20 +5,20 @@ import NextDocument, {
   Html,
   Main,
   NextScript,
-} from 'next/document'
-import { Children } from 'react'
-import { AppRegistry } from 'react-native'
+} from 'next/document';
+import { Children } from 'react';
+import { AppRegistry } from 'react-native';
 
-import Tamagui from '../tamagui.config'
+import Tamagui from '../tamagui.config';
 
 export default class Document extends NextDocument {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
-    AppRegistry.registerComponent('Main', () => Main)
-    const page = await ctx.renderPage()
+    AppRegistry.registerComponent('Main', () => Main);
+    const page = await ctx.renderPage();
 
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    const { getStyleElement } = AppRegistry.getApplication('Main')
+    const { getStyleElement } = AppRegistry.getApplication('Main');
 
     /**
      * Note: be sure to keep tamagui styles after react-native-web styles like it is here!
@@ -34,9 +34,9 @@ export default class Document extends NextDocument {
           }),
         }}
       />,
-    ]
+    ];
 
-    return { ...page, styles: Children.toArray(styles) }
+    return { ...page, styles: Children.toArray(styles) };
   }
 
   render() {
@@ -50,6 +50,6 @@ export default class Document extends NextDocument {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }

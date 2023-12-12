@@ -1,140 +1,140 @@
 type Theme = {
-  color1: string
-  color2: string
-  color3: string
-  color4: string
-  color5: string
-  color6: string
-  color7: string
-  color8: string
-  color9: string
-  color10: string
-  color11: string
-  color12: string
-  background: string
-  backgroundHover: string
-  backgroundPress: string
-  backgroundFocus: string
-  backgroundStrong: string
-  backgroundTransparent: string
-  color: string
-  colorHover: string
-  colorPress: string
-  colorFocus: string
-  colorTransparent: string
-  borderColor: string
-  borderColorHover: string
-  borderColorFocus: string
-  borderColorPress: string
-  placeholderColor: string
-  blue1: string
-  blue2: string
-  blue3: string
-  blue4: string
-  blue5: string
-  blue6: string
-  blue7: string
-  blue8: string
-  blue9: string
-  blue10: string
-  blue11: string
-  blue12: string
-  gray1: string
-  gray2: string
-  gray3: string
-  gray4: string
-  gray5: string
-  gray6: string
-  gray7: string
-  gray8: string
-  gray9: string
-  gray10: string
-  gray11: string
-  gray12: string
-  green1: string
-  green2: string
-  green3: string
-  green4: string
-  green5: string
-  green6: string
-  green7: string
-  green8: string
-  green9: string
-  green10: string
-  green11: string
-  green12: string
-  orange1: string
-  orange2: string
-  orange3: string
-  orange4: string
-  orange5: string
-  orange6: string
-  orange7: string
-  orange8: string
-  orange9: string
-  orange10: string
-  orange11: string
-  orange12: string
-  pink1: string
-  pink2: string
-  pink3: string
-  pink4: string
-  pink5: string
-  pink6: string
-  pink7: string
-  pink8: string
-  pink9: string
-  pink10: string
-  pink11: string
-  pink12: string
-  purple1: string
-  purple2: string
-  purple3: string
-  purple4: string
-  purple5: string
-  purple6: string
-  purple7: string
-  purple8: string
-  purple9: string
-  purple10: string
-  purple11: string
-  purple12: string
-  red1: string
-  red2: string
-  red3: string
-  red4: string
-  red5: string
-  red6: string
-  red7: string
-  red8: string
-  red9: string
-  red10: string
-  red11: string
-  red12: string
-  yellow1: string
-  yellow2: string
-  yellow3: string
-  yellow4: string
-  yellow5: string
-  yellow6: string
-  yellow7: string
-  yellow8: string
-  yellow9: string
-  yellow10: string
-  yellow11: string
-  yellow12: string
-  shadowColor: string
-  shadowColorHover: string
-  shadowColorPress: string
-  shadowColorFocus: string
-}
+  color1: string;
+  color2: string;
+  color3: string;
+  color4: string;
+  color5: string;
+  color6: string;
+  color7: string;
+  color8: string;
+  color9: string;
+  color10: string;
+  color11: string;
+  color12: string;
+  background: string;
+  backgroundHover: string;
+  backgroundPress: string;
+  backgroundFocus: string;
+  backgroundStrong: string;
+  backgroundTransparent: string;
+  color: string;
+  colorHover: string;
+  colorPress: string;
+  colorFocus: string;
+  colorTransparent: string;
+  borderColor: string;
+  borderColorHover: string;
+  borderColorFocus: string;
+  borderColorPress: string;
+  placeholderColor: string;
+  blue1: string;
+  blue2: string;
+  blue3: string;
+  blue4: string;
+  blue5: string;
+  blue6: string;
+  blue7: string;
+  blue8: string;
+  blue9: string;
+  blue10: string;
+  blue11: string;
+  blue12: string;
+  gray1: string;
+  gray2: string;
+  gray3: string;
+  gray4: string;
+  gray5: string;
+  gray6: string;
+  gray7: string;
+  gray8: string;
+  gray9: string;
+  gray10: string;
+  gray11: string;
+  gray12: string;
+  green1: string;
+  green2: string;
+  green3: string;
+  green4: string;
+  green5: string;
+  green6: string;
+  green7: string;
+  green8: string;
+  green9: string;
+  green10: string;
+  green11: string;
+  green12: string;
+  orange1: string;
+  orange2: string;
+  orange3: string;
+  orange4: string;
+  orange5: string;
+  orange6: string;
+  orange7: string;
+  orange8: string;
+  orange9: string;
+  orange10: string;
+  orange11: string;
+  orange12: string;
+  pink1: string;
+  pink2: string;
+  pink3: string;
+  pink4: string;
+  pink5: string;
+  pink6: string;
+  pink7: string;
+  pink8: string;
+  pink9: string;
+  pink10: string;
+  pink11: string;
+  pink12: string;
+  purple1: string;
+  purple2: string;
+  purple3: string;
+  purple4: string;
+  purple5: string;
+  purple6: string;
+  purple7: string;
+  purple8: string;
+  purple9: string;
+  purple10: string;
+  purple11: string;
+  purple12: string;
+  red1: string;
+  red2: string;
+  red3: string;
+  red4: string;
+  red5: string;
+  red6: string;
+  red7: string;
+  red8: string;
+  red9: string;
+  red10: string;
+  red11: string;
+  red12: string;
+  yellow1: string;
+  yellow2: string;
+  yellow3: string;
+  yellow4: string;
+  yellow5: string;
+  yellow6: string;
+  yellow7: string;
+  yellow8: string;
+  yellow9: string;
+  yellow10: string;
+  yellow11: string;
+  yellow12: string;
+  shadowColor: string;
+  shadowColorHover: string;
+  shadowColorPress: string;
+  shadowColorFocus: string;
+};
 
 function t(a) {
-  const res: Record<string, string> = {}
+  const res: Record<string, string> = {};
   for (const [ki, vi] of a) {
-    res[ks[ki]] = vs[vi]
+    res[ks[ki]] = vs[vi];
   }
-  return res
+  return res;
 }
 const vs = [
   '#fff',
@@ -379,7 +379,7 @@ const vs = [
   'rgba(0,0,0,0.5)',
   'rgba(0,0,0,0.9)',
   'transparent',
-]
+];
 
 const ks = [
   'color1',
@@ -510,7 +510,7 @@ const ks = [
   'shadowColorHover',
   'shadowColorPress',
   'shadowColorFocus',
-]
+];
 
 export const light: Theme = {
   background: '#f8f8f8',
@@ -641,7 +641,7 @@ export const light: Theme = {
   yellow7: 'hsl(47, 80.4%, 68.0%)',
   yellow8: 'hsl(48, 100%, 46.1%)',
   yellow9: 'hsl(53, 92.0%, 50.0%)',
-}
+};
 const n2 = t([
   [0, 110],
   [1, 111],
@@ -771,9 +771,8 @@ const n2 = t([
   [125, 209],
   [126, 210],
   [127, 210],
-]) as Theme
-console.log(light)
-export const dark = n2 as Theme
+]) as Theme;
+export const dark = n2 as Theme;
 const n3 = t([
   [0, 48],
   [1, 49],
@@ -803,9 +802,9 @@ const n3 = t([
   [25, 51],
   [26, 51],
   [27, 57],
-]) as Theme
+]) as Theme;
 
-export const light_orange = n3 as Theme
+export const light_orange = n3 as Theme;
 const n4 = t([
   [0, 96],
   [1, 97],
@@ -835,9 +834,9 @@ const n4 = t([
   [25, 99],
   [26, 99],
   [27, 105],
-]) as Theme
+]) as Theme;
 
-export const light_yellow = n4 as Theme
+export const light_yellow = n4 as Theme;
 const n5 = t([
   [0, 36],
   [1, 37],
@@ -867,9 +866,9 @@ const n5 = t([
   [25, 39],
   [26, 39],
   [27, 45],
-]) as Theme
+]) as Theme;
 
-export const light_green = n5 as Theme
+export const light_green = n5 as Theme;
 const n6 = t([
   [0, 14],
   [1, 15],
@@ -899,9 +898,9 @@ const n6 = t([
   [25, 17],
   [26, 17],
   [27, 23],
-]) as Theme
+]) as Theme;
 
-export const light_blue = n6 as Theme
+export const light_blue = n6 as Theme;
 const n7 = t([
   [0, 72],
   [1, 73],
@@ -931,9 +930,9 @@ const n7 = t([
   [25, 75],
   [26, 75],
   [27, 81],
-]) as Theme
+]) as Theme;
 
-export const light_purple = n7 as Theme
+export const light_purple = n7 as Theme;
 const n8 = t([
   [0, 60],
   [1, 61],
@@ -963,9 +962,9 @@ const n8 = t([
   [25, 63],
   [26, 63],
   [27, 69],
-]) as Theme
+]) as Theme;
 
-export const light_pink = n8 as Theme
+export const light_pink = n8 as Theme;
 const n9 = t([
   [0, 84],
   [1, 85],
@@ -995,9 +994,9 @@ const n9 = t([
   [25, 87],
   [26, 87],
   [27, 93],
-]) as Theme
+]) as Theme;
 
-export const light_red = n9 as Theme
+export const light_red = n9 as Theme;
 const n10 = t([
   [0, 154],
   [1, 155],
@@ -1027,9 +1026,9 @@ const n10 = t([
   [25, 157],
   [26, 158],
   [27, 162],
-]) as Theme
+]) as Theme;
 
-export const dark_orange = n10 as Theme
+export const dark_orange = n10 as Theme;
 const n11 = t([
   [0, 198],
   [1, 199],
@@ -1059,9 +1058,9 @@ const n11 = t([
   [25, 201],
   [26, 202],
   [27, 206],
-]) as Theme
+]) as Theme;
 
-export const dark_yellow = n11 as Theme
+export const dark_yellow = n11 as Theme;
 const n12 = t([
   [0, 143],
   [1, 144],
@@ -1091,9 +1090,9 @@ const n12 = t([
   [25, 146],
   [26, 147],
   [27, 151],
-]) as Theme
+]) as Theme;
 
-export const dark_green = n12 as Theme
+export const dark_green = n12 as Theme;
 const n13 = t([
   [0, 121],
   [1, 122],
@@ -1123,9 +1122,9 @@ const n13 = t([
   [25, 124],
   [26, 125],
   [27, 129],
-]) as Theme
+]) as Theme;
 
-export const dark_blue = n13 as Theme
+export const dark_blue = n13 as Theme;
 const n14 = t([
   [0, 176],
   [1, 177],
@@ -1155,9 +1154,9 @@ const n14 = t([
   [25, 179],
   [26, 180],
   [27, 184],
-]) as Theme
+]) as Theme;
 
-export const dark_purple = n14 as Theme
+export const dark_purple = n14 as Theme;
 const n15 = t([
   [0, 165],
   [1, 166],
@@ -1187,9 +1186,9 @@ const n15 = t([
   [25, 168],
   [26, 169],
   [27, 173],
-]) as Theme
+]) as Theme;
 
-export const dark_pink = n15 as Theme
+export const dark_pink = n15 as Theme;
 const n16 = t([
   [0, 187],
   [1, 188],
@@ -1219,6 +1218,6 @@ const n16 = t([
   [25, 190],
   [26, 191],
   [27, 195],
-]) as Theme
+]) as Theme;
 
-export const dark_red = n16 as Theme
+export const dark_red = n16 as Theme;

@@ -4,6 +4,6 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-  },
+    "source.fixAll": true
+  }
 }

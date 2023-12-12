@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works fine for rendering components from shared package 1`] = `
+<View
+  accessibilityRole="button"
+  cursor="pointer"
+  focusable={true}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "$background",
+      "borderBottomColor": "transparent",
+      "borderBottomLeftRadius": 9,
+      "borderBottomRightRadius": 9,
+      "borderBottomWidth": 1,
+      "borderLeftColor": "transparent",
+      "borderLeftWidth": 1,
+      "borderRightColor": "transparent",
+      "borderRightWidth": 1,
+      "borderStyle": "solid",
+      "borderTopColor": "transparent",
+      "borderTopLeftRadius": 9,
+      "borderTopRightRadius": 9,
+      "borderTopWidth": 1,
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "height": 44,
+      "justifyContent": "center",
+      "paddingLeft": 18,
+      "paddingRight": 18,
+    }
+  }
+/>
+`;

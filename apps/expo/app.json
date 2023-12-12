@@ -15,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yourprojectsname.app"
@@ -37,8 +35,6 @@
         "projectId": "89fc178f-bc35-4fdf-9857-23789100fc09"
       }
     },
-    "plugins": [
-      "expo-router"
-    ]
-}
+    "plugins": ["expo-router"]
+  }
 }
