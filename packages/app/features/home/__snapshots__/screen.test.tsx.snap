@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home screen 1`] = `
+[
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "paddingBottom": 18,
+        "paddingLeft": 18,
+        "paddingRight": 18,
+        "paddingTop": 18,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "stretch",
+          "flexDirection": "column",
+          "maxWidth": 600,
+        }
+      }
+    >
+      <Text
+        accessibilityRole="header"
+        selectable={true}
+        style={
+          {
+            "color": "$color",
+            "fontFamily": "Inter",
+            "fontSize": 46,
+            "letterSpacing": -3,
+            "lineHeight": 56,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "textAlign": "center",
+            "textTransform": "none",
+          }
+        }
+        suppressHighlighting={true}
+      >
+        Welcome to Tamagui.
+      </Text>
+      <View
+        pointerEvents="none"
+        style={
+          {
+            "alignItems": "stretch",
+            "height": 18,
+            "minHeight": 18,
+            "minWidth": 18,
+            "width": 18,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "$blue10",
+            "fontFamily": "Inter",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textAlign": "center",
+            "textTransform": "none",
+          }
+        }
+        suppressHighlighting={true}
+      >
+        Here's a basic starter to show navigating from one screen to another. This screen uses the same code on Next.js and React Native.
+      </Text>
+      <View
+        pointerEvents="none"
+        style={
+          {
+            "alignItems": "stretch",
+            "height": 18,
+            "minHeight": 18,
+            "minWidth": 18,
+            "width": 18,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "alignItems": "stretch",
+            "borderBottomColor": "$borderColor",
+            "borderBottomWidth": 1,
+            "borderLeftColor": "$borderColor",
+            "borderLeftWidth": 0,
+            "borderRightColor": "$borderColor",
+            "borderRightWidth": 0,
+            "borderStyle": "solid",
+            "borderTopColor": "$borderColor",
+            "borderTopWidth": 0,
+            "flex": 1,
+            "flexShrink": 0,
+            "height": 0,
+            "maxHeight": 0,
+            "transform": [
+              {
+                "translateY": -0.5,
+              },
+            ],
+          }
+        }
+      />
+      <View
+        pointerEvents="none"
+        style={
+          {
+            "alignItems": "stretch",
+            "height": 18,
+            "minHeight": 18,
+            "minWidth": 18,
+            "width": 18,
+          }
+        }
+      />
+      <Text
+        selectable={true}
+        style={
+          {
+            "color": "$color",
+            "fontFamily": "Inter",
+            "fontSize": 15,
+            "letterSpacing": 0,
+            "lineHeight": 27,
+            "textAlign": "center",
+          }
+        }
+        suppressHighlighting={true}
+      >
+        Made by
+         
+        <Text
+          accessibilityRole="link"
+          style={
+            {
+              "color": "$color12",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeight": 27,
+            }
+          }
+          suppressHighlighting={true}
+        >
+          @natebirdman
+        </Text>
+        ,
+         
+        <Text
+          accessibilityRole="link"
+          rel="noreferrer"
+          style={
+            {
+              "color": "$color12",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeight": 27,
+            }
+          }
+          suppressHighlighting={true}
+        >
+          give it a ⭐️
+        </Text>
+      </Text>
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "alignItems": "stretch",
+          "height": 18,
+          "minHeight": 18,
+          "minWidth": 18,
+          "width": 18,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "stretch",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityRole="link"
+        cursor="pointer"
+        focusable={true}
+        href="/user/nate"
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "$background",
+            "borderBottomColor": "transparent",
+            "borderBottomLeftRadius": 9,
+            "borderBottomRightRadius": 9,
+            "borderBottomWidth": 1,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 1,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 1,
+            "borderStyle": "solid",
+            "borderTopColor": "transparent",
+            "borderTopLeftRadius": 9,
+            "borderTopRightRadius": 9,
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "height": 44,
+            "justifyContent": "center",
+            "paddingLeft": 18,
+            "paddingRight": 18,
+          }
+        }
+      >
+        <Text
+          cursor="pointer"
+          lineBreakMode="clip"
+          numberOfLines={1}
+          style={
+            {
+              "color": "$color",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "letterSpacing": 0,
+              "lineHeight": 27,
+            }
+          }
+          suppressHighlighting={true}
+          userSelect="none"
+        >
+          Link to user
+        </Text>
+      </View>
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "alignItems": "stretch",
+          "height": 18,
+          "minHeight": 18,
+          "minWidth": 18,
+          "width": 18,
+        }
+      }
+    />
+    <View
+      accessibilityRole="button"
+      cursor="pointer"
+      focusable={true}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "$background",
+          "borderBottomColor": "transparent",
+          "borderBottomLeftRadius": 100000,
+          "borderBottomRightRadius": 100000,
+          "borderBottomWidth": 1,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 1,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 1,
+          "borderStyle": "solid",
+          "borderTopColor": "transparent",
+          "borderTopLeftRadius": 100000,
+          "borderTopRightRadius": 100000,
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "height": 64,
+          "justifyContent": "center",
+          "maxHeight": 64,
+          "maxWidth": 64,
+          "minHeight": 64,
+          "minWidth": 64,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "width": 64,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight="11"
+        bbWidth="11"
+        fill="none"
+        focusable={false}
+        height={11}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke="#000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {},
+            {
+              "flex": 0,
+              "height": 11,
+              "width": 11,
+            },
+          ]
+        }
+        vbHeight={24}
+        vbWidth={24}
+        width={11}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+              "stroke",
+              "strokeWidth",
+              "strokeLinecap",
+              "strokeLinejoin",
+            ]
+          }
+          stroke={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          strokeLinecap={1}
+          strokeLinejoin={1}
+          strokeWidth="2"
+        >
+          <RNSVGPath
+            d="m18 15-6-6-6 6"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "stroke",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>,
+  <View
+    pointerEvents="box-none"
+    style={
+      {
+        "alignItems": "stretch",
+        "bottom": 0,
+        "flexDirection": "column",
+        "left": 0,
+        "maxWidth": "100%",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 100001,
+      }
+    }
+  >
+    <View
+      animation="medium"
+      collapsable={false}
+      onLayout={[Function]}
+      pointerEvents="none"
+      style={
+        {
+          "height": "80%",
+          "minHeight": "80%",
+          "opacity": 0,
+          "position": "absolute",
+          "transform": [
+            {
+              "translateY": 10000.1,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 100001,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "$background",
+            "borderTopLeftRadius": 9,
+            "borderTopRightRadius": 9,
+            "flex": 1,
+            "flexDirection": "column",
+            "height": 0,
+            "justifyContent": "center",
+            "maxHeight": "100%",
+            "overflow": "hidden",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          pointerEvents="none"
+          style={
+            {
+              "alignItems": "stretch",
+              "backgroundColor": "$background",
+              "borderBottomLeftRadius": 100,
+              "borderBottomRightRadius": 100,
+              "borderTopLeftRadius": 100,
+              "borderTopRightRadius": 100,
+              "flexDirection": "row",
+              "height": 10,
+              "marginBottom": 7,
+              "marginLeft": "35%",
+              "marginRight": "35%",
+              "opacity": 0,
+              "zIndex": 10,
+            }
+          }
+        />
+        <View
+          accessibilityRole="button"
+          cursor="pointer"
+          focusable={true}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "$background",
+              "borderBottomColor": "transparent",
+              "borderBottomLeftRadius": 100000,
+              "borderBottomRightRadius": 100000,
+              "borderBottomWidth": 1,
+              "borderLeftColor": "transparent",
+              "borderLeftWidth": 1,
+              "borderRightColor": "transparent",
+              "borderRightWidth": 1,
+              "borderStyle": "solid",
+              "borderTopColor": "transparent",
+              "borderTopLeftRadius": 100000,
+              "borderTopRightRadius": 100000,
+              "borderTopWidth": 1,
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "height": 64,
+              "justifyContent": "center",
+              "maxHeight": 64,
+              "maxWidth": 64,
+              "minHeight": 64,
+              "minWidth": 64,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "width": 64,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight="11"
+            bbWidth="11"
+            fill="none"
+            focusable={false}
+            height={11}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            stroke="#000"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {},
+                {
+                  "flex": 0,
+                  "height": 11,
+                  "width": 11,
+                },
+              ]
+            }
+            vbHeight={24}
+            vbWidth={24}
+            width={11}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth="2"
+            >
+              <RNSVGPath
+                d="m6 9 6 6 6-6"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "stroke",
+                  ]
+                }
+                stroke={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "$background",
+            "borderBottomLeftRadius": 0,
+            "borderBottomRightRadius": 0,
+            "borderBottomWidth": 0,
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderTopWidth": 0,
+            "bottom": "-50%",
+            "flex": 1,
+            "flexDirection": "column",
+            "height": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "maxHeight": "100%",
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "shadowOpacity": 0,
+            "width": "100%",
+            "zIndex": -1,
+          }
+        }
+      />
+    </View>
+  </View>,
+]
+`;

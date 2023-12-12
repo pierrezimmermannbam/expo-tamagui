@@ -1,3 +1,7 @@
 module.exports = {
-  projects: ['<rootDir>/apps/expo/jest.config.js'],
+  projects: [
+    '<rootDir>/apps/expo/jest.config.js',
+    '<rootDir>/packages/ui/jest.config.js',
+    '<rootDir>/packages/app/jest.config.js',
+  ],
 };
