@@ -130,3 +130,6 @@ dist/
 # prebuild
 ios
 android
+
+# jest cache
+.cache/jest
