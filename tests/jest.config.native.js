@@ -30,4 +30,5 @@ module.exports = {
     'app/(.*)': '../../packages/app/$1',
     '@my/ui/(.*)': '../../packages/ui/$1',
   },
+  snapshotResolver: '<rootDir>/../../tests/snapshotResolver.js',
 };

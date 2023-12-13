@@ -5,4 +5,5 @@ module.exports = {
     '<rootDir>/packages/app/jest.config.js',
     '<rootDir>/apps/next/jest.config.js',
   ],
+  snapshotResolver: './tests/snapshotResolver.js',
 };
